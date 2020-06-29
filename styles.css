@@ -1,0 +1,160 @@
+body {
+				background-image :url("bg-mobile.png");
+				padding:30px; 
+				margin:auto;
+				margin-top: 80px; 
+				font-family:Raleway; 
+				}
+.fylo {
+				color:white;
+				font-size : 48px; 
+				border-radius: 10px 100px 10px 10px; 
+				background-color: hsl(228, 56%, 26%);
+				width: 200px; 
+				height:130px; 
+				padding : 35px;
+				margin : 15px; 
+				}
+.gb {
+				display:flex; 
+				justify-content : space-between; 
+				margin-top:5px; 
+				}
+.x {
+				background-color:hsl(229, 57%, 11%);
+				border-radius: 5px; 
+				text-align:center;
+				padding : 8px 10px 8px 10px; 
+				margin: 5px; 
+				align-items:center; 
+				display : block; 
+	 	}
+.y {
+				background-color:hsl(229, 57%, 11%);
+				border-radius: 5px; 
+				text-align:center;
+				padding : 10px 9px 10px 9px; 
+				margin: 5px; 
+				align-items:center; 
+				display : block; 
+				}
+.z {
+				background-color:hsl(229, 57%, 11%);
+				border-radius: 5px; 
+				text-align:center;
+				padding : 11px 10px 11px 10px; 
+				margin: 5px; 
+				align-items:center; 
+				display : block; 
+				}
+.p{
+				color : hsl(228, 56%, 26%);
+				}		
+	.q {
+					color : gray;
+					font-size: 12px; 
+					}					
+	 	.b {
+	 					display:flex; 
+	 					margin-top: 25px;
+	 					align-items: center; 
+	 			
+	 					}
+.meter {
+				height: 13px; 
+				width : 100% ;
+				border-radius: 10px;
+				background-color : hsl(229, 57%, 11%) ;
+				position:relative; 
+				padding: 2px;
+				margin-top:7px; 
+				 
+				}
+.storage {
+				color:white;
+				font-size : 12px; 
+				border-radius: 10px; 
+				background-color: hsl(228, 56%, 26%);
+				width: 230px; 
+				height:80px; 
+				padding :20px;
+				margin:15px; 
+				}
+.left {
+				width : 150px; 
+				height : 40px; 
+				background-color:white; 
+				position:absolute;
+				border-radius: 10px; 
+				color: darkblue;
+				padding-top:12px; 
+				text-align:center; 
+				margin-top:35px;
+				margin-left:30px; 
+				font-size: 18px; 
+				}				
+.progressbar {
+				background-image : linear-gradient(30deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+				height: 100%; 
+				width: 81.5%;
+				border-radius:20px; 
+				position: relative; 
+				over-flow : hidden; 
+				display : block;
+				position:relative; 
+				}
+.circle {
+				height:11px; 
+				width:11px; 
+				border-radius:50%;
+				background-color: white;
+				position: absolute; 
+				right:19%; 
+				top:2.85px; 
+				}
+	.attribution {
+					margin-top: 50px; 
+					}
+@media screen and (min-width:800px)
+{
+				body {
+								background-image:url("bg-desktop.png");
+						background-repeat:no-repeat;
+	background-position	:bottom;
+	background-color:			hsl(229, 57%, 11%);		
+	background-size: 100% 50%; 
+	
+								}
+			.mainbody {
+							display : flex; 
+							margin:50px; 
+							margin-bottom:120px; 
+					 
+							}	
+			.fylo {
+					  bottom:20px; 
+							width:230px; 
+							}
+			.storage {
+							width: 500px; 
+						
+							position:relative;
+							align-self:flex-end; 
+							}
+				.left {
+								top : -75px;
+								right:18px; 
+								position:absolute; 
+								border-radius: 10px 10px 0px 10px; 
+		} 
+		.left:before { 
+						content:"";
+				  	position: absolute; 
+						top: 51.5px;
+						right:0px; 
+						width: 0; 
+						height: 0; 
+						border-left: 15px solid transparent; 
+						border-top: 15px solid white;
+								}
+				}
